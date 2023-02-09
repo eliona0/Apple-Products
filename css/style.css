@@ -12,3 +12,57 @@ h1{
 	position: absolute;
 	margin: 500px;
 }
+
+.first-container{
+	 width: 100%;
+ 	height: 1000px;
+}
+
+.first-container img{
+	width: 100%;
+	height: 100%;
+
+}
+
+.third-container{
+	margin:0px;
+	width: 100%;
+	height: 500px;
+	background-color: #edf0ee;
+	color:#2d3047;
+
+}
+
+.quote_elizabeth{
+	margin-top: 18%;
+	margin-left: 18%;
+	margin-right: 18%;
+	height: 300px;
+	width: auto;
+	text-align: left;
+}
+
+.elizabeth {
+	 font-family: Trebuchet MS ,sans-serif;
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+}
+
+.elizabeth img{
+	height: 150px;
+	width: 150px;
+	border-radius: 100px;
+}
+
+.elizabeth strong{
+	font-weight: bolder;
+	font-size: 19px;
+}
+
+.info {
+	margin-left: 10px;
+	padding-top: 10px;
+	display: flex;
+	flex-direction: column;
+}
