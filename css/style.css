@@ -1,0 +1,14 @@
+.slide{
+	position: relative;
+	width: 100%;
+	
+}
+
+.mainimg{
+	  max-width: 100%;
+    max-height: 100%;
+}
+h1{
+	position: absolute;
+	margin: 500px;
+}
