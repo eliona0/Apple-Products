@@ -4,25 +4,113 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contact Form</title>
-    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="css/Contact.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+
+
+      body {
+        overflow: auto;
+      }
+      footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+
+
+
+
+    </style>
   </head>
   <body>
-    <div class="form-container">
-      <form action="#">
-      <h2>
-        <label for="contact us">Contact Us</label>
-      </h2>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
 
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
 
-        <input type="submit" value="Submit">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Menu
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="MenuFood.html">Food</a></li>
+            <li><a class="dropdown-item" href="MenuDesserts.html">Dessert</a></li>
+            <li><a class="dropdown-item" href="MenuDrinks.html">Drinks</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Album</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Reservations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<div class="tekst">Contact Us!</div>
+
+    <div class="contact-box">
+      <form>
+        <input type="text" class="input-field" placeholder="Your Name">
+        <input type="email" class="input-field" placeholder="Your Email">
+        <textarea type="text" class="input-field textarea-field" placeholder="Your Message"></textarea>
+        <button type="button" class="btnt">Send Message</button>
       </form>
     </div>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-row">
+          <div class="footer-col">
+            <h4>Location</h4>
+            <p>Grecko Bar & Seafood</p>
+            <p>Restaurant</p>
+            <p>24 Akti Kampani St.</p>
+            <p>846 00, Mykonos, Greece</p>
+            <p>P: (123) 456-7890</p>
+            <p>E: info@grecko.com</p>
+          </div>
+          <div class="footer-col">
+            <h4>Opening Hours</h4>
+            <p>Open daily from 8am</p>
+            <p>Bar: Daily from 8am - 12pm</p>
+            <p>Breakfast: Daily from 8am - 11am</p>
+            <p>Lunch: Daily from 12pm - 3pm</p>
+            <p>Dinner: Daily from 6pm - 12pm</p>
+          </div>
+          <div class="footer-col">
+            <h4>Follow Us</h4>
+            <p><a href="https://www.facebook.com/">Facebook</a></p>
+            <p><a href="https://twitter.com/login?lang=en">Twitter</a></p>
+            <p><a href="https://www.instagram.com/">Instagram</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+        
+
   </body>
-</html>  
+</html>
