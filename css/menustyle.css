@@ -15,7 +15,7 @@ body{
 	height: 80%;
 }
 .first-container{
-	 width: 1582px;
+	 width: 100%;
  	height: 1027px;
 }
 
@@ -205,3 +205,13 @@ width: 100%;
   transform: translateY(0);
   opacity: 1;
 }
+
+body{
+	background-color: white;
+  color: black;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
