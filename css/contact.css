@@ -5,17 +5,37 @@
 
 body{
   background-color: #efefef;
- font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: sans-serif;
+}
+
+
+.LOGO {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2px;
+  width: 40px;
+  height: 80%;
 }
 
 .contact-box{
   width: 500px;
   background-color: #fff;
   box-shadow: 0 0 20px 0 #999;
-  top: 21.5%;
+  top: 25%;
   left: 36%;
   transform: translate(-50%.-50%);
   position: absolute;
+  -webkit-transform: translateX(-500px)  translateZ(0);
+    transform: translateX(-500px)  translateZ(0);
+    -webkit-transition-delay: .3s;
+    -o-transition-delay: .3s;
+    transition-delay: .3s;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+    opacity: 0;
+
 }
 
 form{
@@ -50,10 +70,10 @@ form{
 }
 
 footer {
- 
+  margin-top: 700px;
   background-color:#001F40;
   color: #fff;
-  padding: 2px 0;
+  padding: 40px 0;
 }
 
 .img{
@@ -88,6 +108,15 @@ width: 100%;
   padding-top: 20px;
   padding-left: 20px;
   border-left: 1px solid rgba(255, 255, 255, 0.1)
+  -webkit-transform: translateX(-500px)  translateZ(0);
+    transform: translateX(-500px)  translateZ(0);
+    -webkit-transition-delay: .3s;
+    -o-transition-delay: .3s;
+    transition-delay: .3s;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+    opacity: 0;
 }
 
 .footer-col h4 {
@@ -136,23 +165,39 @@ width: 100%;
   }
 }
 
-.reveal{
-  position: relative;
-  transform: translateY(150px);
-  opacity: 0;
-  transition: 1s all ease;
+.tekst{
+  color: midnightblue;
+  font-size: 60px;
+  margin-left: 41.7%;
+
+    top: 21.5%;
+  left: 36%;
+     -webkit-transform: translateY(50px) rotate(-5deg) translateZ(0);
+    transform: translateY(50px) rotate(-5deg) translateZ(0);
+    -webkit-transition-delay: .3s;
+    -o-transition-delay: .3s;
+    transition-delay: .3s;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+    opacity: 0;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
 }
 
-.reveal.active{
-  transform: translateY(0);
-  opacity: 1;
+@media only screen and (max-width: 768px) {
+  .footer-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-col {
+    min-width: 100%;
+    text-align: center;
+  }
 }
 
-body{
-  background-color: white;
-  color: black;
-}
-.dark-mode {
-  background-color: black;
-  color: white;
+.inView {
+    opacity: 1;
+    -webkit-transform: translateY(0px) rotate(0deg) translateZ(0);
+    transform: translateY(0px) rotate(0deg) translateZ(0);
 }
